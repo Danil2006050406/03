@@ -1,0 +1,185 @@
+
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #fff;
+    padding: 10px ;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo,
+.links{
+   display: inline;  
+}
+.logo{
+    position: absolute;
+    width: 37px;
+    top: 15px;
+    
+}
+.links{
+    text-align: right;
+    
+}
+#facebook{
+    position: absolute;
+    width: 29px;
+    height: 25px;
+    left: 1425px;
+    top: 15px;
+}
+#twitter{
+    position: absolute;
+    width: 29px;
+    height: 25px;
+    left: 1500px;
+    top: 15px;
+}
+.space{
+    background-color: #FAC960;
+}
+.space.text{
+    text-align: center;
+    display: inline-block;
+    font-size: 44px;
+    width: 960px;
+    height: 108px;
+    margin-left: 130px;
+    margin-top: 91px;
+    margin-bottom: 0px;
+    color: #8A6D2F;
+}
+.space.input{
+    margin-left: 70px;
+}
+#email{
+    margin-top: 40px;
+    margin-bottom: 117px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border: 0px;
+    width: 560px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 30px;
+}
+::placeholder{
+    padding-left: 36px;
+    
+}
+#firstbutton{
+    border: 0px;
+    width: 240px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: #A8863D;
+    font-size: 30px;
+}
+.un{
+    padding: 0px;
+    background-color: #F2F2F2;
+    margin: 0px;
+}
+.unlimited.first{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-size: 37px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56)
+}
+.unlimited.second{
+    font-size: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 56px;
+}
+.infinity{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.mob{
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+.mobile.first{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 0px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.mobile.second{
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.mobile{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.tlyf{
+    background-color: #FAC960;
+}
+.text.first{
+    text-align: center;
+    color: #8A6D2F;
+    font-size: 36px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.text.second{
+    text-align: center;
+    color: #8A6D2F;
+    font-size: 23px;
+    padding-bottom: 0px;
+}
+#secondbutton{
+    width: 61px;
+    height: 22px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #758696;
+    display: block;
+    margin: 0 auto;
+}
+.friends.button{
+    padding-bottom: 107px;
+}
+.footer{
+    padding: 100px;
+    background-color: #fff;
+}
+#logo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.logofooter{
+    padding-top: 107px;
+}
+#twitterfooter,
+#facebookfooter,
+#mailfooter{
+    padding-right: 22px;
+    margin-bottom: 81px;
+    padding-bottom: 60px;
+}
+#twitterfooter{
+    padding-left: 740px;
+}
+a,span,strong,em{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
